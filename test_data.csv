@@ -1,0 +1,15 @@
+age,income,expenditure,household_size,gender,education
+25,50000,30000,3,Male,Bachelor
+30,75000,45000,4,Female,Master
+35,60000,35000,2,Male,High School
+28,45000,28000,3,Female,Bachelor
+40,90000,55000,5,Male,PhD
+22,35000,22000,2,Female,High School
+45,120000,70000,4,Male,Master
+32,65000,40000,3,Female,Bachelor
+38,85000,50000,4,Male,Master
+27,48000,30000,2,Female,Bachelor
+
+
+
+

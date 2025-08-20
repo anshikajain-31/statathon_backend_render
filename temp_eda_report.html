@@ -1,0 +1,172 @@
+
+            <!DOCTYPE html>
+            <html>
+            <head>
+                <title>Data Profile Report</title>
+                <style>
+                    body { font-family: Arial, sans-serif; margin: 40px; }
+                    .header { background-color: #f0f0f0; padding: 20px; border-radius: 5px; }
+                    .section { margin: 20px 0; }
+                    .metric { background-color: #e8f4f8; padding: 10px; margin: 10px 0; border-radius: 3px; }
+                    .table { border-collapse: collapse; width: 100%; }
+                    .table th, .table td { border: 1px solid #ddd; padding: 8px; text-align: left; }
+                    .table th { background-color: #f2f2f2; }
+                    .numeric { background-color: #e8f5e8; }
+                    .categorical { background-color: #fff3cd; }
+                </style>
+            </head>
+            <body>
+                <div class="header">
+                    <h1>Data Profile Report</h1>
+                    <p>Generated on: 2025-08-20 18:17:04</p>
+                </div>
+                
+                <div class="section">
+                    <h2>Dataset Overview</h2>
+                    <div class="metric">
+                        <p><strong>Shape:</strong> 26 rows × 10 columns</p>
+                        <p><strong>Memory Usage:</strong> 5.40 KB</p>
+                    </div>
+                </div>
+                
+                <div class="section">
+                    <h2>Missing Values</h2>
+                    <div class="metric">
+                        <p><strong>Total missing values:</strong> 29</p>
+                    </div>
+                </div>
+                
+                <div class="section">
+                    <h2>Numeric Columns Analysis</h2>
+                    
+                    <table class="table numeric">
+                        <tr>
+                            <th>Column</th>
+                            <th>Mean</th>
+                            <th>Median</th>
+                            <th>Std</th>
+                            <th>Min</th>
+                            <th>Max</th>
+                            <th>Unique</th>
+                            <th>Missing</th>
+                        </tr>
+                        
+                        <tr>
+                            <td>household_id</td>
+                                                     <td>1005.19</td>
+                         <td>1005.50</td>
+                         <td>2.58</td>
+                         <td>1001.00</td>
+                         <td>1009.00</td>
+                            <td>9</td>
+                            <td>0</td>
+                        </tr>
+                        
+                        <tr>
+                            <td>member_id</td>
+                                                     <td>27.77</td>
+                         <td>30.00</td>
+                         <td>16.16</td>
+                         <td>1.00</td>
+                         <td>49.00</td>
+                            <td>26</td>
+                            <td>0</td>
+                        </tr>
+                        
+                        <tr>
+                            <td>age</td>
+                                                     <td>37.69</td>
+                         <td>40.00</td>
+                         <td>10.41</td>
+                         <td>25.00</td>
+                         <td>50.00</td>
+                            <td>4</td>
+                            <td>0</td>
+                        </tr>
+                        
+                        <tr>
+                            <td>income</td>
+                                                     <td>35115.38</td>
+                         <td>5000.00</td>
+                         <td>71763.68</td>
+                         <td>2000.00</td>
+                         <td>200000.00</td>
+                            <td>4</td>
+                            <td>0</td>
+                        </tr>
+                        
+                        <tr>
+                            <td>expenditure</td>
+                                                     <td>3833.33</td>
+                         <td>3000.00</td>
+                         <td>2388.70</td>
+                         <td>1500.00</td>
+                         <td>7000.00</td>
+                            <td>3</td>
+                            <td>8</td>
+                        </tr>
+                        
+                        <tr>
+                            <td>food_expenditure</td>
+                                                     <td>2376.50</td>
+                         <td>2411.50</td>
+                         <td>1143.04</td>
+                         <td>516.00</td>
+                         <td>3964.00</td>
+                            <td>26</td>
+                            <td>0</td>
+                        </tr>
+                        
+                        <tr>
+                            <td>housing_expenditure</td>
+                                                     <td>28346.15</td>
+                         <td>2000.00</td>
+                         <td>44356.68</td>
+                         <td>1000.00</td>
+                         <td>100000.00</td>
+                            <td>4</td>
+                            <td>0</td>
+                        </tr>
+                        
+                    </table>
+                    
+                </div>
+                
+                <div class="section">
+                    <h2>Categorical Columns Analysis</h2>
+                    
+                    <table class="table categorical">
+                        <tr>
+                            <th>Column</th>
+                            <th>Unique Count</th>
+                            <th>Missing Count</th>
+                            <th>Top Values</th>
+                        </tr>
+                        
+                        <tr>
+                            <td>gender</td>
+                            <td>2</td>
+                            <td>15</td>
+                            <td>Male: 8, Female: 3</td>
+                        </tr>
+                        
+                        <tr>
+                            <td>education</td>
+                            <td>3</td>
+                            <td>5</td>
+                            <td>Primary: 8, Graduate: 8, Secondary: 5</td>
+                        </tr>
+                        
+                        <tr>
+                            <td>occupation</td>
+                            <td>4</td>
+                            <td>1</td>
+                            <td>Worker: 8, Unemployed: 7, Farmer: 6</td>
+                        </tr>
+                        
+                    </table>
+                    
+                </div>
+            </body>
+            </html>
+            
